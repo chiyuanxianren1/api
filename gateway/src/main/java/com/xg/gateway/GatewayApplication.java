@@ -14,8 +14,7 @@ import org.springframework.stereotype.Service;
 /**
  * 网关入口
  *
- * @author <a href="https://github.com/liyupi">程序员鱼皮</a>
- * @from <a href="https://yupi.icu">编程导航知识星球</a>
+
  */
 @SpringBootApplication(exclude = {
         DataSourceAutoConfiguration.class,
@@ -23,7 +22,7 @@ import org.springframework.stereotype.Service;
         HibernateJpaAutoConfiguration.class})
 @EnableDubbo
 @Service
-public class YuGatewayApplication {
+public class GatewayApplication {
 
     @DubboReference
     private DemoService demoService;

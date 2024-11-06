@@ -1,2 +1,2 @@
 # spring boot starter
-org.springframework.boot.autoconfigure.EnableAutoConfiguration=com.xg.clientsdk.YuApiClientConfig
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=com.xg.clientsdk.ApiClientConfig
